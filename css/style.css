@@ -128,7 +128,7 @@ footer p{
         display: none;
     }
 }
-@media (max-width: 599px) {
+@media and (max-width: 599px) {
     .menu{
         display: none;
     }
