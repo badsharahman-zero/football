@@ -123,12 +123,12 @@ footer p{
     cursor: pointer;
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .menu-button{
         display: none;
     }
 }
-@media and (max-width: 599px) {
+@media only screen and (max-width: 599px) {
     .menu{
         display: none;
     }
